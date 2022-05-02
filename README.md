@@ -3,7 +3,9 @@
 
 
 
-
+## System requirements
+1. Docker
+2. Nodejs in Current version
 
 ## Run Locally
 
