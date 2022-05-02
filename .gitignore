@@ -1,4 +1,5 @@
 mongodb-populate/node_modules
+mongodb-populate/build
 
 tasks-organizer/node_modules
 tasks-organizer/build
