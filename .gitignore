@@ -1,5 +1,11 @@
 mongodb-populate/node_modules
+
 tasks-organizer/node_modules
+tasks-organizer/build
+
 tasks-distributor/node_modules
+tasks-distributor/build
+
 tasks-executor/node_modules
+tasks-executor/build
 mongodb-data

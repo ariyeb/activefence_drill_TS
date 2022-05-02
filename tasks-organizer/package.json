@@ -1,0 +1,29 @@
+{
+  "name": "tasks-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "tsc && env-cmd -f ./config/dev.env nodemon src/index.mjs",
+    "start": "env-cmd -f ./config/dev.env node build/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  },
+  "devDependencies": {
+    "@tsconfig/node17": "^1.0.0",
+    "@types/amqplib": "^0.8.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.31",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  }
+}
