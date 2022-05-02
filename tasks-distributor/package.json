@@ -1,11 +1,10 @@
 {
-  "name": "tasks-organizer",
+  "name": "tasks-distributor",
   "version": "1.0.0",
   "description": "",
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "dev": "tsc && env-cmd -f ./config/dev.env nodemon src/index.mjs",
     "start": "env-cmd -f ./config/dev.env node build/index.js",
     "build": "tsc"
   },
@@ -14,8 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0",
-    "express": "^4.18.1",
-    "mongoose": "^6.3.2"
+    "mongoose": "^6.3.1"
   },
   "devDependencies": {
     "@tsconfig/node17": "^1.0.0",
