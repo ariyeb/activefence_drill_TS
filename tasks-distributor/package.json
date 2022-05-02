@@ -5,7 +5,7 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "start": "env-cmd -f ./config/dev.env node build/index.js",
+    "start": "tsc && env-cmd -f ./config/dev.env node build/index.js",
     "build": "tsc"
   },
   "keywords": [],

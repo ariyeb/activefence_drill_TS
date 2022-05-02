@@ -5,6 +5,7 @@ try {
     await connect();
     await populate();
     await disconnect();
+    console.log('Mongodb was populated with 100,000 new tasks');
 } catch (err) {
     console.error(err);
 }
