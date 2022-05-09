@@ -20,7 +20,7 @@ async function handleTasksGroupFromRabbitMQ(tasksGroupMessage: amqplib.ConsumeMe
             rabbitMqClient.publish(constants.tasksQueue, JSON.stringify(task));
         });
         rabbitMqClient.acknowledgment(tasksGroupMessage);
-        console.log('tasksGroup - stop:', message);
+        console.log('tasksGroup - ack:', message);
 
     } catch (err) {
         console.error(err);
